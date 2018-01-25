@@ -20,3 +20,10 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
+
+功能介绍
+1：封装http请求
+2：mock模拟前后台同步开发
+3：nuxt+vue+element  实现了登录鉴权  菜单权限控制
+
