@@ -23,7 +23,7 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 
 
 功能介绍
-1：封装http请求
+1：封装http请求<br>
 2：mock模拟前后台同步开发
 3：nuxt+vue+element  实现了登录鉴权  菜单权限控制
 
