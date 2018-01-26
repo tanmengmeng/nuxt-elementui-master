@@ -60,7 +60,9 @@ export default {
             password: vm.ruleForm.password
           }).then(function(res){
             // 登录成功保存
-            vm.getMenu();
+             if(!!vm.$store.state.authUser.username){
+               vm.getMenu();
+            }
           })
         }
       })
