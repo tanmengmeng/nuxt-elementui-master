@@ -59,8 +59,10 @@ export default {
             username: vm.ruleForm.username,
             password: vm.ruleForm.password
           }).then(function(res){
-            // 登录成功保存
-            vm.getMenu();
+            if(!!vm.$store.state.authUser.username){
+              // 登录成功保存
+              vm.getMenu();
+             }
           })
         }
       })
